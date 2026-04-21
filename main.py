@@ -1,5 +1,5 @@
 from input_data import ambil_data
-from proses_nilai import hitung_rata_rata, cek_kelulusan
+from proses import hitung_rata_rata, cek_kelulusan
 nama, nilai = ambil_data()
 rata = hitung_rata_rata(nilai)
 status = cek_kelulusan(rata)
